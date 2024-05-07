@@ -1,3 +1,15 @@
+$(function() {
+    $("#toggleThis").click(function(){ 
+        $("#content").slideToggle("slow");
+    });
+});
+
+$(function() {
+    $("#toggleThis2").click(function(){ 
+        $("#content2").slideToggle("slow");
+    });
+});
+
 window.onload = () => {
     const button = document.querySelector('#btn');
     button.addEventListener('click', calculateBmi);
